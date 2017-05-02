@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CKPagerComponent_Example' do
+  pod 'CKPagerComponent', :path => '../'
+
+  target 'CKPagerComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
