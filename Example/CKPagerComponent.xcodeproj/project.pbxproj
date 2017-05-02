@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A4E0B1EB8886C00F1B9A2 /* CKTestVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A4E061EB8886C00F1B9A2 /* CKTestVC1.m */; };
+		040A4E0C1EB8886C00F1B9A2 /* CKTestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A4E081EB8886C00F1B9A2 /* CKTestVC2.m */; };
+		040A4E0D1EB8886C00F1B9A2 /* CKTestVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A4E0A1EB8886C00F1B9A2 /* CKTestVC3.m */; };
 		35AA8403C02811B963BB6412 /* Pods_CKPagerComponent_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E39B233FD3323FC5FBFF9C /* Pods_CKPagerComponent_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,8 +41,14 @@
 
 /* Begin PBXFileReference section */
 		01E39B233FD3323FC5FBFF9C /* Pods_CKPagerComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKPagerComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		090FEABA36B9E75EA7AB70F9 /* CKPagerComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CKPagerComponent.podspec; path = ../CKPagerComponent.podspec; sourceTree = "<group>"; };
-		3DEB2CEAC64EC17BD2DA9063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		040A4E051EB8886C00F1B9A2 /* CKTestVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTestVC1.h; sourceTree = "<group>"; };
+		040A4E061EB8886C00F1B9A2 /* CKTestVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTestVC1.m; sourceTree = "<group>"; };
+		040A4E071EB8886C00F1B9A2 /* CKTestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTestVC2.h; sourceTree = "<group>"; };
+		040A4E081EB8886C00F1B9A2 /* CKTestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTestVC2.m; sourceTree = "<group>"; };
+		040A4E091EB8886C00F1B9A2 /* CKTestVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKTestVC3.h; sourceTree = "<group>"; };
+		040A4E0A1EB8886C00F1B9A2 /* CKTestVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKTestVC3.m; sourceTree = "<group>"; };
+		090FEABA36B9E75EA7AB70F9 /* CKPagerComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CKPagerComponent.podspec; path = ../CKPagerComponent.podspec; sourceTree = "<group>"; };
+		3DEB2CEAC64EC17BD2DA9063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		43F7037EB12F5384BACDEC88 /* Pods-CKPagerComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKPagerComponent_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKPagerComponent_Tests/Pods-CKPagerComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		44D9F52E367E6FD93AB3AA1E /* Pods-CKPagerComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKPagerComponent_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CKPagerComponent_Example/Pods-CKPagerComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CKPagerComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKPagerComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +71,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		78B760C77D6BFCCC2E108AF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		78B760C77D6BFCCC2E108AF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A034EE488E0FC8542C6A4D3F /* Pods_CKPagerComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKPagerComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A334B7504163007E1894E279 /* Pods-CKPagerComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKPagerComponent_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKPagerComponent_Tests/Pods-CKPagerComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +141,12 @@
 		6003F593195388D20070C39A /* Example for CKPagerComponent */ = {
 			isa = PBXGroup;
 			children = (
+				040A4E051EB8886C00F1B9A2 /* CKTestVC1.h */,
+				040A4E061EB8886C00F1B9A2 /* CKTestVC1.m */,
+				040A4E071EB8886C00F1B9A2 /* CKTestVC2.h */,
+				040A4E081EB8886C00F1B9A2 /* CKTestVC2.m */,
+				040A4E091EB8886C00F1B9A2 /* CKTestVC3.h */,
+				040A4E0A1EB8886C00F1B9A2 /* CKTestVC3.m */,
 				6003F59C195388D20070C39A /* CKAppDelegate.h */,
 				6003F59D195388D20070C39A /* CKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -394,8 +409,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A4E0D1EB8886C00F1B9A2 /* CKTestVC3.m in Sources */,
 				6003F59E195388D20070C39A /* CKAppDelegate.m in Sources */,
+				040A4E0C1EB8886C00F1B9A2 /* CKTestVC2.m in Sources */,
 				6003F5A7195388D20070C39A /* CKViewController.m in Sources */,
+				040A4E0B1EB8886C00F1B9A2 /* CKTestVC1.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

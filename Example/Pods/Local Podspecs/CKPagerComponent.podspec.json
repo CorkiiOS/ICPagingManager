@@ -1,0 +1,22 @@
+{
+  "name": "CKPagerComponent",
+  "version": "0.1.0",
+  "summary": "A short description of CKPagerComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/corkiios/CKPagerComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "corkiios": "675053587@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/corkiios/CKPagerComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CKPagerComponent/Classes/**/*"
+}

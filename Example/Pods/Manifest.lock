@@ -1,0 +1,16 @@
+PODS:
+  - CKPagerComponent (0.1.0)
+
+DEPENDENCIES:
+  - CKPagerComponent (from `../`)
+
+EXTERNAL SOURCES:
+  CKPagerComponent:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CKPagerComponent: d0b1e1a1011b129a857609e3d0be633ba6277f8c
+
+PODFILE CHECKSUM: 13a9cedafddfe8e35993c6fa1c51ad7d43ae08f6
+
+COCOAPODS: 1.1.1

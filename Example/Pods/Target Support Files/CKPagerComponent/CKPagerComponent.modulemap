@@ -1,0 +1,6 @@
+framework module CKPagerComponent {
+  umbrella header "CKPagerComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
