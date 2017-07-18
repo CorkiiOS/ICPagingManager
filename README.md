@@ -4,7 +4,8 @@
 [![Version](https://img.shields.io/cocoapods/v/CKPagerComponent.svg?style=flat)](http://cocoapods.org/pods/CKPagerComponent)
 [![License](https://img.shields.io/cocoapods/l/CKPagerComponent.svg?style=flat)](http://cocoapods.org/pods/CKPagerComponent)
 [![Platform](https://img.shields.io/cocoapods/p/CKPagerComponent.svg?style=flat)](http://cocoapods.org/pods/CKPagerComponent)
-
+##Show
+![](https://github.com/corkiios/CKPagerComponent/page.gif)
 ##Describe
 比较常用的选项卡多页面管理器，低耦合，不需要继承，使用CKPagingManager实例进行管理。
 ## Example
