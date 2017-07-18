@@ -17,14 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'CKPagerComponent.pageManager'
+  s.description      = "CKPagerComponent.pageManager"
 
   s.homepage         = 'https://github.com/CorkiiOS/CKPagerComponent'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'corkiios' => '675053587@qq.com' }
   s.source           = { :git => 'https://github.com/CorkiiOS/CKPagerComponent.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
