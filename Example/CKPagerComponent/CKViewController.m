@@ -7,61 +7,52 @@
 //
 
 #import "CKViewController.h"
-#import "CKSegmentBar.h"
-#import "CKContainerView.h"
-#import "CKPagingControllerComponent.h"
-#import "CKTestVC1.h"
-#import "CKTestVC2.h"
-#import "CKTestVC3.h"
+#import "CKStyle1ViewController.h"
+#import "CKStyle2ViewController.h"
+@interface CKViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
-@interface CKViewController ()
 @end
 
 @implementation CKViewController
 
+- (NSArray *)styles {
+    
+    return @[@"普通选项卡",
+             @"pagecontrol选项卡"];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    [self updateSegmentBarConfig:^(CKSegmentBarConfig *config) {
-        
-        config.nor_color([UIColor darkGrayColor]);
-        config.sel_color([UIColor orangeColor]);
-        config.line_color([UIColor orangeColor]);
-    }];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+
 }
 
-- (NSArray<UIViewController *> *)pagingControllerComponentChildViewControllers {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    return @[[CKTestVC1 new],
-             [CKTestVC2 new],
-             [CKTestVC3 new],
-             [CKTestVC3 new],
-             [CKTestVC3 new],
-             [CKTestVC3 new],
-             [CKTestVC3 new],
-             [CKTestVC3 new],
-             [CKTestVC3 new]];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = self.styles[indexPath.row];
+    return cell;
 }
 
-- (NSArray<NSString *> *)pagingControllerComponentSegmentTitles {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return @[@"热门",@"精华",@"你好",@"热门",@"精华",@"你好",@"热门",@"精华",@"你好"];
+    return self.styles.count;
 }
 
-- (CGRect)pagingControllerComponentSegmentFrame {
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    return CGRectMake(0, 64, self.view.bounds.size.width, 35);
-}
-
-- (CGFloat)pagingControllerComponentContainerViewHeight {
-    
-    return self.view.bounds.size.height - 35 - 64;
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
-    [self.navigationController pushViewController:[CKPagingControllerComponent new] animated:YES];
+    switch (indexPath.row) {
+        case 0:
+            [self.navigationController pushViewController:[CKStyle1ViewController new] animated:YES];
+            break;
+            case 1:
+             [self.navigationController pushViewController:[CKStyle2ViewController new] animated:YES];
+            break;
+        default:
+            break;
+    }
 }
 
 @end

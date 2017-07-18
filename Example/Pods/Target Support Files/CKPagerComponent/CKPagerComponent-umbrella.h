@@ -3,9 +3,14 @@
 #endif
 
 #import "CKContainerView.h"
-#import "CKPagingControllerComponent.h"
+#import "CKPagingManager.h"
 #import "CKSegmentBar.h"
 #import "CKSegmentBarConfig.h"
+#import "IPagingManager.h"
+#import "ISegmentBar.h"
+#import "ISegmentFactory.h"
+#import "SegmentControl.h"
+#import "SegmentFactory.h"
 #import "UIView+CKFrame.h"
 
 FOUNDATION_EXPORT double CKPagerComponentVersionNumber;

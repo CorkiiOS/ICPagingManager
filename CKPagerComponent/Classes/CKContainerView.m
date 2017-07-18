@@ -18,7 +18,6 @@
     
     CGFloat _startOffsetX;
     BOOL _isForbidScrollDelegate;
-
 }
 
 + (instancetype)containerWithFrame:(CGRect)frame {
@@ -63,9 +62,11 @@
     
     NSInteger index = scrollView.contentOffset.x / self.width;
     [self setupViewWithIndex:index];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(ck_containerView:didEndScroll:)]) {
-        
-        [self.delegate ck_containerView:self didEndScroll:scrollView];
+    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(ck_containerView:
+                                                                     didEndScroll:)]) {
+        [self.delegate ck_containerView:self
+                           didEndScroll:scrollView];
     }
 }
 
@@ -74,8 +75,14 @@
     _startOffsetX = scrollView.contentOffset.x;
     _isForbidScrollDelegate = NO;
     
+    if ([self.delegate respondsToSelector:@selector(ck_containerView:didBeginDragging:)]) {
+        
+        [self.delegate ck_containerView:self didBeginDragging:scrollView];
+    }
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    if (_isForbidScrollDelegate) { return; }
     
     if (_isForbidScrollDelegate) { return; }
     
@@ -128,10 +135,16 @@
             sourceIndex = self.childControllers.count - 1;
         }
         
-    }
-    if (_delegate && [_delegate respondsToSelector:@selector(ck_containerView:progress:sourceIndex:targetIndex:)]) {
         
-        [_delegate ck_containerView:self progress:progress sourceIndex:sourceIndex targetIndex:targetIndex];
+    }
+    if (_delegate && [_delegate respondsToSelector:@selector(ck_containerView:
+                                                             progress:
+                                                             sourceIndex:
+                                                             targetIndex:)]) {
+        [_delegate ck_containerView:self
+                           progress:progress
+                        sourceIndex:sourceIndex
+                        targetIndex:targetIndex];
     }
 }
 

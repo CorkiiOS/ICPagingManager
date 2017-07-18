@@ -13,8 +13,12 @@
 
 @optional
 
+- (void)ck_containerView:(CKContainerView *)containerView
+            didBeginDragging:(UIScrollView *)scrollView;
 
-- (void)ck_containerView:(CKContainerView *)containerView didEndScroll:(UIScrollView *)scrollView;
+- (void)ck_containerView:(CKContainerView *)containerView
+            didEndScroll:(UIScrollView *)scrollView;
+
 - (void)ck_containerView:(CKContainerView *)containerView
                progress:(CGFloat)progress
             sourceIndex:(NSInteger)sourceIndex
@@ -29,5 +33,7 @@
 + (instancetype)containerWithFrame:(CGRect)frame;
 
 - (void)setContainerViewContentOffsetAtIndex:(NSInteger)index;
+
+
 
 @end

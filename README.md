@@ -5,57 +5,113 @@
 [![License](https://img.shields.io/cocoapods/l/CKPagerComponent.svg?style=flat)](http://cocoapods.org/pods/CKPagerComponent)
 [![Platform](https://img.shields.io/cocoapods/p/CKPagerComponent.svg?style=flat)](http://cocoapods.org/pods/CKPagerComponent)
 
+##Describe
+比较常用的选项卡多页面管理器，低耦合，不需要继承，使用CKPagingManager实例进行管理。
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-## Using
-* 首先导入CKPagingControllerComponent
-* 新建控制器继承CKPagingControllerComponent
-* 需要实现API
-* 子控制器数组
+
+* #import "CKPagingManager.h"
+* 实例化（强引用）
 
 ```
-- (NSArray<UIViewController *> *)pagingControllerComponentChildViewControllers {
+ manager = [CKPagingManager manager];
+ manager.delegate = self;
+    
+```
 
-return @[[CKTestVC1 new],
-[CKTestVC2 new],
-[CKTestVC3 new],
-[CKTestVC3 new],
-[CKTestVC3 new],
-[CKTestVC3 new],
-[CKTestVC3 new],
-[CKTestVC3 new],
-[CKTestVC3 new]];
+* 实现委托<IPagingManager>
+
+* 选项卡风格
+
+
+
+```
+//后续有时间扩展
+typedef NS_ENUM(NSInteger , CKPagingComponentBarStyle) {
+    
+    CKPagingComponentStyleNormal,//普通
+    CKPagingComponentStyleControl,//系统的pagecontrol
+};
+
+- (CKPagingComponentBarStyle)style {
+    
+    return CKPagingComponentStyleControl;
 }
+
 ```
-* 选项卡标题数组
+* 控制器集合
+
+
+```
+/**
+ 
+ 控制器集合
+ @return 控制器集合
+ */
+- (NSArray<UIViewController *> *)pagingControllerComponentChildViewControllers {
+    
+    return @[[CKTestVC1 new],
+             [CKTestVC2 new],
+             [CKTestVC1 new],
+             [CKTestVC2 new],
+             [CKTestVC1 new],
+             [CKTestVC2 new],
+             [CKTestVC2 new],
+             [CKTestVC1 new],
+             [CKTestVC2 new]
+             ];
+}
+
+```
+* 选项卡标题集合
+
 
 ```
 - (NSArray<NSString *> *)pagingControllerComponentSegmentTitles {
-
-return @[@"热门",@"精华",@"你好",@"热门",@"精华",@"你好",@"热门",@"精华",@"你好"];
+    
+    return @[@"热门",@"精华",
+             @"热门",@"精华",
+             @"热门",@"精华",@"精华",
+             @"热门",@"精华"];
 }
 ```
-* 选项卡位置frame
+* 选项卡位置
+
 
 ```
 - (CGRect)pagingControllerComponentSegmentFrame {
-
-return CGRectMake(0, 64, self.view.bounds.size.width, 35);
+    
+    return CGRectMake(0, 64, self.view.bounds.size.width, 44);
 }
-
 ```
-* 子控制器view高度
+* 控制器view高度
 
 
 ```
 - (CGFloat)pagingControllerComponentContainerViewHeight {
-
-return self.view.bounds.size.height - 35 - 64;
+    
+    return self.view.bounds.size.height - 64;
 }
-```
-## Requirements
 
+```
+
+* 选项卡配置
+
+
+```
+ [manager loadPagingWithConfig:^(CKSegmentBarConfig *config) {
+			//标题普通颜色
+        config.nor_color([UIColor darkGrayColor]);
+        //标题选中颜色
+        config.sel_color([UIColor orangeColor]);
+        //下划线颜色
+        config.line_color([UIColor orangeColor]);
+        //选项卡背景颜色
+        config.backgroundColor = [UIColor clearColor];
+    }];
+    
+```
 ## Installation
 
 CKPagerComponent is available through [CocoaPods](http://cocoapods.org). To install
@@ -67,7 +123,7 @@ pod "CKPagerComponent"
 
 ## Author
 
-corkiios, 675053587@qq.com
+corki, 675053587@qq.com
 
 ## License
 

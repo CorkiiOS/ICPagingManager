@@ -8,6 +8,7 @@
 
 #import "CKSegmentBar.h"
 #import "UIView+CKFrame.h"
+
 static CGFloat const CKSegmentBarMargin = 10;
 
 @interface CKSegmentBar()
@@ -47,13 +48,16 @@ static CGFloat const CKSegmentBarMargin = 10;
         [btn setTitleColor:self.config.normalColor forState:UIControlStateNormal];
         [btn setTitleColor:self.config.selectColor forState:UIControlStateSelected];
         [btn.titleLabel setFont:[UIFont systemFontOfSize:self.config.titleFont]];
-        
     }
     self.indicatorView.backgroundColor = self.config.indicatorColor;
     self.contentView.backgroundColor = self.config.backgroundColor;
-
-    
 }
+
+- (void)setDelegate:(id<ISegmentBar>)delegate {
+    
+    _delegate = delegate;
+}
+
 - (void)setItems:(NSArray<NSString *> *)items {
     
     _items = items;
@@ -89,9 +93,11 @@ static CGFloat const CKSegmentBarMargin = 10;
     
     if (_lastBtn == sender) return;
     
-    if (self.delegate && [self.delegate respondsToSelector:@selector(segmentBar:didSelectIndex:fromIndex:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(segmentBarDidSelectIndex:
+                                                                     fromIndex:)]) {
         
-        [self.delegate segmentBar:self didSelectIndex:sender.tag fromIndex:_lastBtn.tag];
+        [self.delegate segmentBarDidSelectIndex:sender.tag
+                                      fromIndex:_lastBtn.tag];
     }
     
     _lastBtn.selected = NO;
@@ -174,8 +180,6 @@ static CGFloat const CKSegmentBarMargin = 10;
 
 }
 
-                           
-                           
 - (void)layoutSubviews {
     
     [super layoutSubviews];

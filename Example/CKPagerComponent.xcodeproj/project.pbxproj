@@ -27,6 +27,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7833F157F12BF3109A285429 /* Pods_CKPagerComponent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A034EE488E0FC8542C6A4D3F /* Pods_CKPagerComponent_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A0C48B391EE8ED1800CABAA5 /* BaseExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C48B381EE8ED1800CABAA5 /* BaseExampleViewController.m */; };
+		A0C48B3C1EE8EDB700CABAA5 /* CKStyle1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C48B3B1EE8EDB700CABAA5 /* CKStyle1ViewController.m */; };
+		A0C48B3F1EE8EEB400CABAA5 /* CKStyle2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C48B3E1EE8EEB400CABAA5 /* CKStyle2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,12 @@
 		78B760C77D6BFCCC2E108AF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A034EE488E0FC8542C6A4D3F /* Pods_CKPagerComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKPagerComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C48B371EE8ED1800CABAA5 /* BaseExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseExampleViewController.h; sourceTree = "<group>"; };
+		A0C48B381EE8ED1800CABAA5 /* BaseExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseExampleViewController.m; sourceTree = "<group>"; };
+		A0C48B3A1EE8EDB700CABAA5 /* CKStyle1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKStyle1ViewController.h; sourceTree = "<group>"; };
+		A0C48B3B1EE8EDB700CABAA5 /* CKStyle1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKStyle1ViewController.m; sourceTree = "<group>"; };
+		A0C48B3D1EE8EEB400CABAA5 /* CKStyle2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKStyle2ViewController.h; sourceTree = "<group>"; };
+		A0C48B3E1EE8EEB400CABAA5 /* CKStyle2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKStyle2ViewController.m; sourceTree = "<group>"; };
 		A334B7504163007E1894E279 /* Pods-CKPagerComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKPagerComponent_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKPagerComponent_Tests/Pods-CKPagerComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D640068563EE849E99A7F7A7 /* Pods-CKPagerComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKPagerComponent_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CKPagerComponent_Example/Pods-CKPagerComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +161,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CKViewController.h */,
 				6003F5A6195388D20070C39A /* CKViewController.m */,
+				A0C48B371EE8ED1800CABAA5 /* BaseExampleViewController.h */,
+				A0C48B381EE8ED1800CABAA5 /* BaseExampleViewController.m */,
+				A0C48B3A1EE8EDB700CABAA5 /* CKStyle1ViewController.h */,
+				A0C48B3B1EE8EDB700CABAA5 /* CKStyle1ViewController.m */,
+				A0C48B3D1EE8EEB400CABAA5 /* CKStyle2ViewController.h */,
+				A0C48B3E1EE8EEB400CABAA5 /* CKStyle2ViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -265,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = corkiios;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -411,9 +429,12 @@
 			files = (
 				040A4E0D1EB8886C00F1B9A2 /* CKTestVC3.m in Sources */,
 				6003F59E195388D20070C39A /* CKAppDelegate.m in Sources */,
+				A0C48B3C1EE8EDB700CABAA5 /* CKStyle1ViewController.m in Sources */,
 				040A4E0C1EB8886C00F1B9A2 /* CKTestVC2.m in Sources */,
 				6003F5A7195388D20070C39A /* CKViewController.m in Sources */,
 				040A4E0B1EB8886C00F1B9A2 /* CKTestVC1.m in Sources */,
+				A0C48B3F1EE8EEB400CABAA5 /* CKStyle2ViewController.m in Sources */,
+				A0C48B391EE8ED1800CABAA5 /* BaseExampleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,12 +563,16 @@
 			baseConfigurationReference = 44D9F52E367E6FD93AB3AA1E /* Pods-CKPagerComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CKPagerComponent/CKPagerComponent-Prefix.pch";
 				INFOPLIST_FILE = "CKPagerComponent/CKPagerComponent-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.CKPagerComponent.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -557,12 +582,16 @@
 			baseConfigurationReference = D640068563EE849E99A7F7A7 /* Pods-CKPagerComponent_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CKPagerComponent/CKPagerComponent-Prefix.pch";
 				INFOPLIST_FILE = "CKPagerComponent/CKPagerComponent-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.CKPagerComponent.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

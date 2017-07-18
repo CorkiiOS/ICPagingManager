@@ -1,5 +1,5 @@
 PODS:
-  - CKPagerComponent (0.1.0)
+  - CKPagerComponent (0.2.0)
 
 DEPENDENCIES:
   - CKPagerComponent (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CKPagerComponent: d0b1e1a1011b129a857609e3d0be633ba6277f8c
+  CKPagerComponent: f2205177ab2bcfffa666c69cfc3613dd698d4375
 
 PODFILE CHECKSUM: 13a9cedafddfe8e35993c6fa1c51ad7d43ae08f6
 

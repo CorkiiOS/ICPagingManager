@@ -7,7 +7,6 @@
 //
 
 @import UIKit;
-#import "CKPagingControllerComponent.h"
-@interface CKViewController : CKPagingControllerComponent
+@interface CKViewController : UIViewController
 
 @end
