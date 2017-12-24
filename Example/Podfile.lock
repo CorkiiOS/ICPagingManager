@@ -1,16 +1,16 @@
 PODS:
-  - CKPagerComponent (0.2.0)
+  - ICPagingManager (0.1.0)
 
 DEPENDENCIES:
-  - CKPagerComponent (from `../`)
+  - ICPagingManager (from `../`)
 
 EXTERNAL SOURCES:
-  CKPagerComponent:
+  ICPagingManager:
     :path: ../
 
 SPEC CHECKSUMS:
-  CKPagerComponent: f2205177ab2bcfffa666c69cfc3613dd698d4375
+  ICPagingManager: 6766db72cf865316e397cf92746597f3a4157c1e
 
-PODFILE CHECKSUM: 13a9cedafddfe8e35993c6fa1c51ad7d43ae08f6
+PODFILE CHECKSUM: 28d79f0d7b1a18b92c91da56b1e89d201a1682bd
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.3.1

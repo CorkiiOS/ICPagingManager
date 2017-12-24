@@ -1,9 +1,9 @@
 //
-//  CKPagerComponentTests.m
-//  CKPagerComponentTests
+//  ICPagingManagerTests.m
+//  ICPagingManagerTests
 //
-//  Created by corkiios on 05/02/2017.
-//  Copyright (c) 2017 corkiios. All rights reserved.
+//  Created by iCorki on 11/11/2017.
+//  Copyright (c) 2017 iCorki. All rights reserved.
 //
 
 @import XCTest;

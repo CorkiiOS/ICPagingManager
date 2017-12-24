@@ -7,225 +7,215 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0347B77067D4A7E17D251A43EF03E98E /* CKPagerComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB20F28AEDDAD2F380FAB05EBDE26E4 /* CKPagerComponent-dummy.m */; };
-		043808CC4FDE3CB6839F15D58CD277F7 /* SegmentFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B692A8ECE2C19E10B827E26F28D01159 /* SegmentFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		265B24564186CFADBF75D7460DAAED20 /* Pods-CKPagerComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 816DD8794F689BB5199F07F1F5BBB4AD /* Pods-CKPagerComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DD3DD1F941251B1FDD5C37A968C9706 /* CKSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC2B48F4352FACE96DEF97E070E5B4C /* CKSegmentBarConfig.m */; };
-		4864FC88393B602BA62803AEC722A2EF /* SegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A35B6509F83200822CCD6E6DBBBEA601 /* SegmentControl.m */; };
-		4FD9A6B55D12ACFD40C2B632AB82D4DD /* CKContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABEB028AE355D7327BDAF9E39BE214E /* CKContainerView.m */; };
-		5A6B421509964F203994BA232DC28A44 /* Pods-CKPagerComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F355ECDB07976A0E6C71104F50210E1 /* Pods-CKPagerComponent_Tests-dummy.m */; };
-		5ABB756D235C02C566AAE9F59EA340A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5D49ABBBBDA6986BF2E87FAD11D22293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		708B71768E655EB9C05C46B3BB1F83A3 /* Pods-CKPagerComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3917B9251B2EDBA58F9AF2E662AEBD89 /* Pods-CKPagerComponent_Example-dummy.m */; };
-		7B2A7483DA093DA7BA544A297452F8BA /* CKSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E321FD73B5FD4573649364DF7D7A628 /* CKSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8038155AB0C067129430766F35A73442 /* CKPagingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 222A3ACE2AAAD3F23DFEE866FEA92E8B /* CKPagingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BA6F5B0E8377616D6F4FB55562042A1 /* UIView+CKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 819EC705B86750D6B2A23762AE0CE70B /* UIView+CKFrame.m */; };
-		A495D0F9BB94CDECB9E46D3478E64BEA /* ISegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F5009A42DB09535FB1CD38E80048A625 /* ISegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5FACE696EB946592F60B79F8D4731FC /* Pods-CKPagerComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAC81BD975AC07536A27FA84BF87FC6 /* Pods-CKPagerComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A667349DCA9384A218DB706A7F14D05E /* CKSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80752F205B0DD251A5AC06210E79EFBD /* CKSegmentBar.m */; };
-		B9D194F1ECCC36DB2C2AED51704ABBB9 /* UIView+CKFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0070BDEF40CDC61E0FC5F732F527D8D4 /* UIView+CKFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C23174030BEB652E9F7757008E7804AD /* CKContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9341C313C8EBCBA66A9F7D4B6591492 /* CKContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C24B9D2121E0416A02CCF8943CC2A0F9 /* CKPagingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D564C39ABA32B4AB8BC09FC7D054DA /* CKPagingManager.m */; };
-		C4B659D2F8ECACEF196AF368BD4E655C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CB6DB9193BC8F877E4AF02B59CA8D57D /* SegmentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D1085A4BEB0FDCB0B9941D68B57A4 /* SegmentFactory.m */; };
-		CEF9D318BBF40D06EB6DDB3A01978CBE /* CKSegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDEF63514200CE915E6B57250259FC6 /* CKSegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5D1731D3474F4DE654AE82ECABB4A6C /* CKPagerComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CB6A6513978C1246704792BC67F857 /* CKPagerComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE9A6175C652800B7F958A385FB9E469 /* ISegmentFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D82EC369EF8D002A6C7836A2F5A1C500 /* ISegmentFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA8ECA897A561BB7BA74CDA78A2F8090 /* SegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9903A07702858244B95501CB204C6154 /* SegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFACAC068F0BF251677856A847D682B0 /* IPagingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 120CB6F20255DA12C2355517DF2DE1E3 /* IPagingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01EEF181ED004BE5DA7481994556A00B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0CFDD6FEF81E14AAD96A08CF8D2CAE33 /* Pods-ICPagingManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCE47F843F16590D5E142910D8D288 /* Pods-ICPagingManager_Tests-dummy.m */; };
+		0F20F04B498E8FD6DB71F43FA4EC966B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		10454BAD779BD71240B99508FBB40A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		14DB0716E7528F180EC111278547297C /* ICPagingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D31F9866DF96D13846FBEAB522E9AA /* ICPagingManager.m */; };
+		1B45808D4F43A2CEF22165FF7AEA68F1 /* Pods-ICPagingManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F6412A71215AE8059DDC5E07002468 /* Pods-ICPagingManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376ACCE471A9390760B479E52604C574 /* ICSegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B3C4E78EED6CC50B1C947266B8C590 /* ICSegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39AA646E6EA1E300C8558D731D299411 /* ICContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 73026DBA58C01F1A483DFB23FBA8EAB4 /* ICContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F82C6BBE7F23681B3ACD6474417BF49 /* SegmentFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 128FD0BA14275937751A89B0DD3159B7 /* SegmentFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEC9BF1ACE49BF8AB1B4AC10548E0AA /* Pods-ICPagingManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73657B7B4D4E784E6A65EAFA2CF7139E /* Pods-ICPagingManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F841A16E64ED1F6D2F1593FEB1B3F70 /* SegmentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8F85B1C846C8B6CDA66324A13692DC /* SegmentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F8C43F71286A8D99DA2D4592289CCA /* SegmentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D654AD80680068BD26066D44FC163E63 /* SegmentFactory.m */; };
+		62C0CA1B2DD0E8C9A9ECF3F9BF3967C2 /* ICSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E9F940F4037AA733F208AF8A7D7940 /* ICSegmentBarConfig.m */; };
+		67E58AD196F760216A4B1CC87E9C446B /* ISegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C620DCFC1819EBB60709FA19618A61 /* ISegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754C4B85B7EEA1C923C969CCA8A8CDB4 /* ICPagingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E95D2513C6FF0AD908EB6F50963FF8A /* ICPagingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		755C4C94DB378B528ACC5682E0A84DE7 /* ICPagingManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EE8F10D3D0A472D2AE493EACEB8F81 /* ICPagingManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F40F9A66EE59303160B447F66F519E7 /* ICPagingManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E5B381A8CB3E572B4B604BBED69D2 /* ICPagingManager-dummy.m */; };
+		841BB614BF8757981DF2B5272447DE7F /* ICContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 024B6FF27600BFF2F7A16162818384CD /* ICContainerView.m */; };
+		85531A21219D0135AD6D7E2F8C00BB13 /* ICPagingManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E59ECB0CF2DA0DCED82B2D63B6505635 /* ICPagingManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8959855C6835C4B0463698F82524B697 /* Pods-ICPagingManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D9EB9A37C72A4CE2B2629FA1D9241E /* Pods-ICPagingManager_Example-dummy.m */; };
+		93913542D4F98320EB5E57FBC9F64993 /* UIView+ICFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 058FBA1BEDFE039BA83350E864024159 /* UIView+ICFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD59242DF6ADDD9B858B9718E703678 /* ICSystemSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A129420A5C95CAD4833D44D0884167A /* ICSystemSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA187185F66AED136E0139905D4A86C /* ICSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C87E33F9B7951F14006079C64E043F2 /* ICSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4FA128C8189FE1A920A90E72FBDE1A8 /* ICSystemSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A237DA42CD4011E76307F3E00E3088F /* ICSystemSegmentedControl.m */; };
+		D199622E2AA4BE3D5D5F2907AB80ABD2 /* SegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE47F7599C8D88D0541823D0FA1CB9 /* SegmentControl.m */; };
+		EC6025B31BD6B48ED7890498442869AF /* ICSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE234D98E2EAABABBA1E32AD8566A1AA /* ICSegmentBar.m */; };
+		F306F8951705617C19B1C08EC2DF9584 /* UIView+ICFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF68CD72E76ED83F6711F1118B10019 /* UIView+ICFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B68848188CC504473132F0483369874A /* PBXContainerItemProxy */ = {
+		E13921F3D0EC1D9EF7B82953132C1234 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1EA252DBCDA7BD5823800DCD75BF0A53;
-			remoteInfo = CKPagerComponent;
+			remoteGlobalIDString = B1600C7B205A452D26B892BCBA80A21C;
+			remoteInfo = ICPagingManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0070BDEF40CDC61E0FC5F732F527D8D4 /* UIView+CKFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CKFrame.h"; sourceTree = "<group>"; };
-		0ABEB028AE355D7327BDAF9E39BE214E /* CKContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKContainerView.m; sourceTree = "<group>"; };
-		10BE7789D51F113B5F7AA00FFAE3C709 /* CKPagerComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CKPagerComponent.modulemap; sourceTree = "<group>"; };
-		120CB6F20255DA12C2355517DF2DE1E3 /* IPagingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IPagingManager.h; sourceTree = "<group>"; };
-		17CB6A6513978C1246704792BC67F857 /* CKPagerComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKPagerComponent-umbrella.h"; sourceTree = "<group>"; };
-		222A3ACE2AAAD3F23DFEE866FEA92E8B /* CKPagingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKPagingManager.h; sourceTree = "<group>"; };
-		22A7321D507D98061F5C836F7120258A /* Pods-CKPagerComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKPagerComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2C1D1085A4BEB0FDCB0B9941D68B57A4 /* SegmentFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentFactory.m; sourceTree = "<group>"; };
-		2EF1AFF38B20FD0B586A30EC18CC11B1 /* CKPagerComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CKPagerComponent.framework; path = CKPagerComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3917B9251B2EDBA58F9AF2E662AEBD89 /* Pods-CKPagerComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKPagerComponent_Example-dummy.m"; sourceTree = "<group>"; };
-		465014B830B5C87ADC68B29ACE4BD1D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46F01E2F156B4C86F4F9867D85FBCF37 /* Pods-CKPagerComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKPagerComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4F848F3397A5F8CC2014DBD3A12C9A4A /* Pods-CKPagerComponent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKPagerComponent_Tests-resources.sh"; sourceTree = "<group>"; };
-		4FAC81BD975AC07536A27FA84BF87FC6 /* Pods-CKPagerComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKPagerComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		51D3DCAE64EADFC8A8D5375C8D16C3C9 /* Pods_CKPagerComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CKPagerComponent_Example.framework; path = "Pods-CKPagerComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D824CC473DA20DA29B43285669CD74F /* Pods-CKPagerComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CKPagerComponent_Example.modulemap"; sourceTree = "<group>"; };
-		5E321FD73B5FD4573649364DF7D7A628 /* CKSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKSegmentBar.h; sourceTree = "<group>"; };
-		5F355ECDB07976A0E6C71104F50210E1 /* Pods-CKPagerComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKPagerComponent_Tests-dummy.m"; sourceTree = "<group>"; };
-		5FDEF63514200CE915E6B57250259FC6 /* CKSegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKSegmentBarConfig.h; sourceTree = "<group>"; };
+		01C620DCFC1819EBB60709FA19618A61 /* ISegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISegmentBar.h; path = ICPagingManager/Classes/ISegmentBar.h; sourceTree = "<group>"; };
+		024B6FF27600BFF2F7A16162818384CD /* ICContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICContainerView.m; path = ICPagingManager/Classes/ICContainerView.m; sourceTree = "<group>"; };
+		058FBA1BEDFE039BA83350E864024159 /* UIView+ICFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ICFrame.h"; path = "ICPagingManager/Classes/UIView+ICFrame.h"; sourceTree = "<group>"; };
+		0FF68CD72E76ED83F6711F1118B10019 /* UIView+ICFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ICFrame.m"; path = "ICPagingManager/Classes/UIView+ICFrame.m"; sourceTree = "<group>"; };
+		128FD0BA14275937751A89B0DD3159B7 /* SegmentFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentFactory.h; path = ICPagingManager/Classes/SegmentFactory.h; sourceTree = "<group>"; };
+		1626DF42347ADA614F5AD39614C9F67C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C87E33F9B7951F14006079C64E043F2 /* ICSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICSegmentBar.h; path = ICPagingManager/Classes/ICSegmentBar.h; sourceTree = "<group>"; };
+		1DCCE47F843F16590D5E142910D8D288 /* Pods-ICPagingManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICPagingManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		39C8BB5AC3537E6D5888316440AD96B8 /* ICPagingManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ICPagingManager.framework; path = ICPagingManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A237DA42CD4011E76307F3E00E3088F /* ICSystemSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICSystemSegmentedControl.m; path = ICPagingManager/Classes/ICSystemSegmentedControl.m; sourceTree = "<group>"; };
+		3CDE47F7599C8D88D0541823D0FA1CB9 /* SegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SegmentControl.m; path = ICPagingManager/Classes/SegmentControl.m; sourceTree = "<group>"; };
+		41F6412A71215AE8059DDC5E07002468 /* Pods-ICPagingManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICPagingManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4A376B2A7DF5F2E1A855B05E2C569F86 /* ICPagingManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICPagingManager.xcconfig; sourceTree = "<group>"; };
+		4BAC50D2E01F1575802D5790598A77FF /* Pods-ICPagingManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICPagingManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E9C59CCD3FF994575E6D01647F387EC /* Pods-ICPagingManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICPagingManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		50B3C4E78EED6CC50B1C947266B8C590 /* ICSegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICSegmentBarConfig.h; path = ICPagingManager/Classes/ICSegmentBarConfig.h; sourceTree = "<group>"; };
+		52D9EB9A37C72A4CE2B2629FA1D9241E /* Pods-ICPagingManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICPagingManager_Example-dummy.m"; sourceTree = "<group>"; };
+		54ABD0C2822C907E009B4D7DA1A08EC2 /* Pods-ICPagingManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ICPagingManager_Example.modulemap"; sourceTree = "<group>"; };
+		5580D14BC76B6E9C2679F9EDB113C3B0 /* Pods-ICPagingManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ICPagingManager_Tests.modulemap"; sourceTree = "<group>"; };
+		5CD7E56DD07DC9C0844EF71154D122DD /* Pods-ICPagingManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICPagingManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F052DEF034E4E22C6EDBE811E20D99F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6328A776F7F2E4AF18F1641B3FDA4B03 /* Pods-ICPagingManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICPagingManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AC2B48F4352FACE96DEF97E070E5B4C /* CKSegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKSegmentBarConfig.m; sourceTree = "<group>"; };
-		7DDA57209E85C276AC28EDEEFC2B2E7A /* CKPagerComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKPagerComponent-prefix.pch"; sourceTree = "<group>"; };
-		80752F205B0DD251A5AC06210E79EFBD /* CKSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKSegmentBar.m; sourceTree = "<group>"; };
-		816DD8794F689BB5199F07F1F5BBB4AD /* Pods-CKPagerComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKPagerComponent_Example-umbrella.h"; sourceTree = "<group>"; };
-		819EC705B86750D6B2A23762AE0CE70B /* UIView+CKFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CKFrame.m"; sourceTree = "<group>"; };
-		820D596CA2C6B40CED53B100EF9B29E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8530EF01813D3B686ECEB9217443618D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D29346DE0DDB8F1FCAF8D2C916B88AF /* Pods-CKPagerComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKPagerComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		90D6D15E1A901A2134D78553FE65DADD /* Pods-CKPagerComponent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKPagerComponent_Example-resources.sh"; sourceTree = "<group>"; };
+		6A129420A5C95CAD4833D44D0884167A /* ICSystemSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICSystemSegmentedControl.h; path = ICPagingManager/Classes/ICSystemSegmentedControl.h; sourceTree = "<group>"; };
+		6E95D2513C6FF0AD908EB6F50963FF8A /* ICPagingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICPagingManager.h; path = ICPagingManager/Classes/ICPagingManager.h; sourceTree = "<group>"; };
+		73026DBA58C01F1A483DFB23FBA8EAB4 /* ICContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICContainerView.h; path = ICPagingManager/Classes/ICContainerView.h; sourceTree = "<group>"; };
+		73657B7B4D4E784E6A65EAFA2CF7139E /* Pods-ICPagingManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICPagingManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		76E9F940F4037AA733F208AF8A7D7940 /* ICSegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICSegmentBarConfig.m; path = ICPagingManager/Classes/ICSegmentBarConfig.m; sourceTree = "<group>"; };
+		7F8F85B1C846C8B6CDA66324A13692DC /* SegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SegmentControl.h; path = ICPagingManager/Classes/SegmentControl.h; sourceTree = "<group>"; };
+		8D5C81D8610B28D61D94C2EB55A75061 /* Pods_ICPagingManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICPagingManager_Example.framework; path = "Pods-ICPagingManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		930E5B381A8CB3E572B4B604BBED69D2 /* ICPagingManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICPagingManager-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9676D0B6C7457F3E05EDAA938960730A /* Pods-CKPagerComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKPagerComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9903A07702858244B95501CB204C6154 /* SegmentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentControl.h; sourceTree = "<group>"; };
-		9AB20F28AEDDAD2F380FAB05EBDE26E4 /* CKPagerComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKPagerComponent-dummy.m"; sourceTree = "<group>"; };
-		9C34F2F3D75F0ED8A0FDB87B95D29850 /* Pods-CKPagerComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKPagerComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A35B6509F83200822CCD6E6DBBBEA601 /* SegmentControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SegmentControl.m; sourceTree = "<group>"; };
-		B692A8ECE2C19E10B827E26F28D01159 /* SegmentFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SegmentFactory.h; sourceTree = "<group>"; };
-		BA892FE52654A6F8B27053E32B2AEF47 /* Pods-CKPagerComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CKPagerComponent_Tests.modulemap"; sourceTree = "<group>"; };
-		C9341C313C8EBCBA66A9F7D4B6591492 /* CKContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CKContainerView.h; sourceTree = "<group>"; };
-		D1ABC7E9B72EB75498A7EBCD9A82CF5A /* Pods-CKPagerComponent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKPagerComponent_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D46211A0BAD285C9205B5DB53278F67A /* Pods-CKPagerComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKPagerComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D82EC369EF8D002A6C7836A2F5A1C500 /* ISegmentFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISegmentFactory.h; sourceTree = "<group>"; };
-		DA759CB07D4EAAF1DC75E00E5756B596 /* Pods_CKPagerComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CKPagerComponent_Tests.framework; path = "Pods-CKPagerComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBA80AD244C2DCAA41AD1BF5BA90313B /* CKPagerComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CKPagerComponent.xcconfig; sourceTree = "<group>"; };
-		E6556FB95F33455220721354BA1CF04A /* Pods-CKPagerComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKPagerComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E66F690A5C111A18315C9514F0720910 /* Pods-CKPagerComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKPagerComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7066774916BACCCC06E8936177E5B5B /* Pods-CKPagerComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKPagerComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9D564C39ABA32B4AB8BC09FC7D054DA /* CKPagingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CKPagingManager.m; sourceTree = "<group>"; };
-		F5009A42DB09535FB1CD38E80048A625 /* ISegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISegmentBar.h; sourceTree = "<group>"; };
+		A4EE8F10D3D0A472D2AE493EACEB8F81 /* ICPagingManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICPagingManagerProtocol.h; path = ICPagingManager/Classes/ICPagingManagerProtocol.h; sourceTree = "<group>"; };
+		A5E0BD65D9E2CEE6E1815E98F110E225 /* Pods-ICPagingManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICPagingManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC079D98D7BE129EB2224F647079DFBF /* Pods-ICPagingManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICPagingManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE234D98E2EAABABBA1E32AD8566A1AA /* ICSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICSegmentBar.m; path = ICPagingManager/Classes/ICSegmentBar.m; sourceTree = "<group>"; };
+		CA9D757B2773492D617F5172672B0160 /* Pods-ICPagingManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICPagingManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D31D30CB5D020D5699BCB721CECE7AB2 /* Pods-ICPagingManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICPagingManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5D31F9866DF96D13846FBEAB522E9AA /* ICPagingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICPagingManager.m; path = ICPagingManager/Classes/ICPagingManager.m; sourceTree = "<group>"; };
+		D654AD80680068BD26066D44FC163E63 /* SegmentFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SegmentFactory.m; path = ICPagingManager/Classes/SegmentFactory.m; sourceTree = "<group>"; };
+		DD513507108A4068628B483DFF8501A6 /* Pods-ICPagingManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICPagingManager_Example-resources.sh"; sourceTree = "<group>"; };
+		E11BC3025D514BF1C425EA46FE86FD55 /* Pods-ICPagingManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICPagingManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E59ECB0CF2DA0DCED82B2D63B6505635 /* ICPagingManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICPagingManager-umbrella.h"; sourceTree = "<group>"; };
+		ED7C7C51F3AE3431D1251FE8BAD73918 /* Pods-ICPagingManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICPagingManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4907F85EA1DA1B02251AA96B8242948 /* Pods_ICPagingManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICPagingManager_Tests.framework; path = "Pods-ICPagingManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F681415FEB69097C36F189955AD1EF25 /* ICPagingManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICPagingManager-prefix.pch"; sourceTree = "<group>"; };
+		FB91E7749FD2A7EEBAAEFFB560D191BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC56EADB83E0D168459839165C0CCA3 /* Pods-ICPagingManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICPagingManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FFB9A314E6BAB237AA9AB378FAECC6FC /* ICPagingManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ICPagingManager.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D452BB2A3362281FCE28B655FD46A769 /* Frameworks */ = {
+		00DAF842E40A342F806534FDC994EA8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B659D2F8ECACEF196AF368BD4E655C /* Foundation.framework in Frameworks */,
+				0F20F04B498E8FD6DB71F43FA4EC966B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3360114D61D78B343B6C32D111982E4 /* Frameworks */ = {
+		44876EA2227BE647C049E433FC0A048C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ABB756D235C02C566AAE9F59EA340A8 /* Foundation.framework in Frameworks */,
+				10454BAD779BD71240B99508FBB40A17 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBE983BB03662000C7592CBDBF09E468 /* Frameworks */ = {
+		648B86030D91161754BC1D8329ED5164 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D49ABBBBDA6986BF2E87FAD11D22293 /* Foundation.framework in Frameworks */,
+				01EEF181ED004BE5DA7481994556A00B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05AE6FB3E58D38A8459BACEA085DE09F /* Pods-CKPagerComponent_Tests */ = {
+		2DF1A2EC65DB9FB1BFF9086C29C32D6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8530EF01813D3B686ECEB9217443618D /* Info.plist */,
-				BA892FE52654A6F8B27053E32B2AEF47 /* Pods-CKPagerComponent_Tests.modulemap */,
-				D46211A0BAD285C9205B5DB53278F67A /* Pods-CKPagerComponent_Tests-acknowledgements.markdown */,
-				9676D0B6C7457F3E05EDAA938960730A /* Pods-CKPagerComponent_Tests-acknowledgements.plist */,
-				5F355ECDB07976A0E6C71104F50210E1 /* Pods-CKPagerComponent_Tests-dummy.m */,
-				D1ABC7E9B72EB75498A7EBCD9A82CF5A /* Pods-CKPagerComponent_Tests-frameworks.sh */,
-				4F848F3397A5F8CC2014DBD3A12C9A4A /* Pods-CKPagerComponent_Tests-resources.sh */,
-				4FAC81BD975AC07536A27FA84BF87FC6 /* Pods-CKPagerComponent_Tests-umbrella.h */,
-				8D29346DE0DDB8F1FCAF8D2C916B88AF /* Pods-CKPagerComponent_Tests.debug.xcconfig */,
-				9C34F2F3D75F0ED8A0FDB87B95D29850 /* Pods-CKPagerComponent_Tests.release.xcconfig */,
+				39C8BB5AC3537E6D5888316440AD96B8 /* ICPagingManager.framework */,
+				8D5C81D8610B28D61D94C2EB55A75061 /* Pods_ICPagingManager_Example.framework */,
+				F4907F85EA1DA1B02251AA96B8242948 /* Pods_ICPagingManager_Tests.framework */,
 			);
-			name = "Pods-CKPagerComponent_Tests";
-			path = "Target Support Files/Pods-CKPagerComponent_Tests";
-			sourceTree = "<group>";
-		};
-		452FA58210DB6F3A60C103D2D6B22679 /* CKPagerComponent */ = {
-			isa = PBXGroup;
-			children = (
-				B17EEB33E72C3F8AEF0C675603AD75FD /* Classes */,
-			);
-			name = CKPagerComponent;
-			path = CKPagerComponent;
-			sourceTree = "<group>";
-		};
-		7102CD204C0A9C7C9531309EF6C985FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				10BE7789D51F113B5F7AA00FFAE3C709 /* CKPagerComponent.modulemap */,
-				DBA80AD244C2DCAA41AD1BF5BA90313B /* CKPagerComponent.xcconfig */,
-				9AB20F28AEDDAD2F380FAB05EBDE26E4 /* CKPagerComponent-dummy.m */,
-				7DDA57209E85C276AC28EDEEFC2B2E7A /* CKPagerComponent-prefix.pch */,
-				17CB6A6513978C1246704792BC67F857 /* CKPagerComponent-umbrella.h */,
-				465014B830B5C87ADC68B29ACE4BD1D5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CKPagerComponent";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC534BCA2803EED63CA77D1E0CE3633C /* Development Pods */,
+				B15AEC2D7982FDD46EBB79986FB8A9A2 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				E94043D703A745C0AC1473B972C7698B /* Products */,
-				821C751C3E9BFBD8DBD8F39C284B0721 /* Targets Support Files */,
+				2DF1A2EC65DB9FB1BFF9086C29C32D6E /* Products */,
+				F70220DB5A4AED3E5FE62E9B899200A6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		821C751C3E9BFBD8DBD8F39C284B0721 /* Targets Support Files */ = {
+		A1790F58ADCB9E235BA5B8C72DDAD0ED /* ICPagingManager */ = {
 			isa = PBXGroup;
 			children = (
-				86B1B554DBB7CA8B9AB4D6DA33E15009 /* Pods-CKPagerComponent_Example */,
-				05AE6FB3E58D38A8459BACEA085DE09F /* Pods-CKPagerComponent_Tests */,
+				73026DBA58C01F1A483DFB23FBA8EAB4 /* ICContainerView.h */,
+				024B6FF27600BFF2F7A16162818384CD /* ICContainerView.m */,
+				6E95D2513C6FF0AD908EB6F50963FF8A /* ICPagingManager.h */,
+				D5D31F9866DF96D13846FBEAB522E9AA /* ICPagingManager.m */,
+				A4EE8F10D3D0A472D2AE493EACEB8F81 /* ICPagingManagerProtocol.h */,
+				1C87E33F9B7951F14006079C64E043F2 /* ICSegmentBar.h */,
+				BE234D98E2EAABABBA1E32AD8566A1AA /* ICSegmentBar.m */,
+				50B3C4E78EED6CC50B1C947266B8C590 /* ICSegmentBarConfig.h */,
+				76E9F940F4037AA733F208AF8A7D7940 /* ICSegmentBarConfig.m */,
+				6A129420A5C95CAD4833D44D0884167A /* ICSystemSegmentedControl.h */,
+				3A237DA42CD4011E76307F3E00E3088F /* ICSystemSegmentedControl.m */,
+				01C620DCFC1819EBB60709FA19618A61 /* ISegmentBar.h */,
+				7F8F85B1C846C8B6CDA66324A13692DC /* SegmentControl.h */,
+				3CDE47F7599C8D88D0541823D0FA1CB9 /* SegmentControl.m */,
+				128FD0BA14275937751A89B0DD3159B7 /* SegmentFactory.h */,
+				D654AD80680068BD26066D44FC163E63 /* SegmentFactory.m */,
+				058FBA1BEDFE039BA83350E864024159 /* UIView+ICFrame.h */,
+				0FF68CD72E76ED83F6711F1118B10019 /* UIView+ICFrame.m */,
+				DF6A6CA0CE9966ADF6BEDA471BA1F5BE /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = ICPagingManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		86B1B554DBB7CA8B9AB4D6DA33E15009 /* Pods-CKPagerComponent_Example */ = {
+		A273C14975B66BB88F8453DD307C2564 /* Pods-ICPagingManager_Example */ = {
 			isa = PBXGroup;
 			children = (
-				820D596CA2C6B40CED53B100EF9B29E0 /* Info.plist */,
-				5D824CC473DA20DA29B43285669CD74F /* Pods-CKPagerComponent_Example.modulemap */,
-				E7066774916BACCCC06E8936177E5B5B /* Pods-CKPagerComponent_Example-acknowledgements.markdown */,
-				E66F690A5C111A18315C9514F0720910 /* Pods-CKPagerComponent_Example-acknowledgements.plist */,
-				3917B9251B2EDBA58F9AF2E662AEBD89 /* Pods-CKPagerComponent_Example-dummy.m */,
-				46F01E2F156B4C86F4F9867D85FBCF37 /* Pods-CKPagerComponent_Example-frameworks.sh */,
-				90D6D15E1A901A2134D78553FE65DADD /* Pods-CKPagerComponent_Example-resources.sh */,
-				816DD8794F689BB5199F07F1F5BBB4AD /* Pods-CKPagerComponent_Example-umbrella.h */,
-				E6556FB95F33455220721354BA1CF04A /* Pods-CKPagerComponent_Example.debug.xcconfig */,
-				22A7321D507D98061F5C836F7120258A /* Pods-CKPagerComponent_Example.release.xcconfig */,
+				1626DF42347ADA614F5AD39614C9F67C /* Info.plist */,
+				54ABD0C2822C907E009B4D7DA1A08EC2 /* Pods-ICPagingManager_Example.modulemap */,
+				ED7C7C51F3AE3431D1251FE8BAD73918 /* Pods-ICPagingManager_Example-acknowledgements.markdown */,
+				CA9D757B2773492D617F5172672B0160 /* Pods-ICPagingManager_Example-acknowledgements.plist */,
+				52D9EB9A37C72A4CE2B2629FA1D9241E /* Pods-ICPagingManager_Example-dummy.m */,
+				4BAC50D2E01F1575802D5790598A77FF /* Pods-ICPagingManager_Example-frameworks.sh */,
+				DD513507108A4068628B483DFF8501A6 /* Pods-ICPagingManager_Example-resources.sh */,
+				73657B7B4D4E784E6A65EAFA2CF7139E /* Pods-ICPagingManager_Example-umbrella.h */,
+				A5E0BD65D9E2CEE6E1815E98F110E225 /* Pods-ICPagingManager_Example.debug.xcconfig */,
+				5CD7E56DD07DC9C0844EF71154D122DD /* Pods-ICPagingManager_Example.release.xcconfig */,
 			);
-			name = "Pods-CKPagerComponent_Example";
-			path = "Target Support Files/Pods-CKPagerComponent_Example";
+			name = "Pods-ICPagingManager_Example";
+			path = "Target Support Files/Pods-ICPagingManager_Example";
 			sourceTree = "<group>";
 		};
-		B17EEB33E72C3F8AEF0C675603AD75FD /* Classes */ = {
+		A3E15C1229945A8302AAF01022CBDCF0 /* Pods-ICPagingManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C9341C313C8EBCBA66A9F7D4B6591492 /* CKContainerView.h */,
-				0ABEB028AE355D7327BDAF9E39BE214E /* CKContainerView.m */,
-				222A3ACE2AAAD3F23DFEE866FEA92E8B /* CKPagingManager.h */,
-				E9D564C39ABA32B4AB8BC09FC7D054DA /* CKPagingManager.m */,
-				5E321FD73B5FD4573649364DF7D7A628 /* CKSegmentBar.h */,
-				80752F205B0DD251A5AC06210E79EFBD /* CKSegmentBar.m */,
-				5FDEF63514200CE915E6B57250259FC6 /* CKSegmentBarConfig.h */,
-				7AC2B48F4352FACE96DEF97E070E5B4C /* CKSegmentBarConfig.m */,
-				120CB6F20255DA12C2355517DF2DE1E3 /* IPagingManager.h */,
-				F5009A42DB09535FB1CD38E80048A625 /* ISegmentBar.h */,
-				D82EC369EF8D002A6C7836A2F5A1C500 /* ISegmentFactory.h */,
-				9903A07702858244B95501CB204C6154 /* SegmentControl.h */,
-				A35B6509F83200822CCD6E6DBBBEA601 /* SegmentControl.m */,
-				B692A8ECE2C19E10B827E26F28D01159 /* SegmentFactory.h */,
-				2C1D1085A4BEB0FDCB0B9941D68B57A4 /* SegmentFactory.m */,
-				0070BDEF40CDC61E0FC5F732F527D8D4 /* UIView+CKFrame.h */,
-				819EC705B86750D6B2A23762AE0CE70B /* UIView+CKFrame.m */,
+				FB91E7749FD2A7EEBAAEFFB560D191BA /* Info.plist */,
+				5580D14BC76B6E9C2679F9EDB113C3B0 /* Pods-ICPagingManager_Tests.modulemap */,
+				E11BC3025D514BF1C425EA46FE86FD55 /* Pods-ICPagingManager_Tests-acknowledgements.markdown */,
+				BC079D98D7BE129EB2224F647079DFBF /* Pods-ICPagingManager_Tests-acknowledgements.plist */,
+				1DCCE47F843F16590D5E142910D8D288 /* Pods-ICPagingManager_Tests-dummy.m */,
+				FDC56EADB83E0D168459839165C0CCA3 /* Pods-ICPagingManager_Tests-frameworks.sh */,
+				4E9C59CCD3FF994575E6D01647F387EC /* Pods-ICPagingManager_Tests-resources.sh */,
+				41F6412A71215AE8059DDC5E07002468 /* Pods-ICPagingManager_Tests-umbrella.h */,
+				6328A776F7F2E4AF18F1641B3FDA4B03 /* Pods-ICPagingManager_Tests.debug.xcconfig */,
+				D31D30CB5D020D5699BCB721CECE7AB2 /* Pods-ICPagingManager_Tests.release.xcconfig */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Pods-ICPagingManager_Tests";
+			path = "Target Support Files/Pods-ICPagingManager_Tests";
+			sourceTree = "<group>";
+		};
+		B15AEC2D7982FDD46EBB79986FB8A9A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1790F58ADCB9E235BA5B8C72DDAD0ED /* ICPagingManager */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -236,14 +226,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC534BCA2803EED63CA77D1E0CE3633C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F5440F037CF46AFE3D0544AC7914483C /* CKPagerComponent */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,116 +234,119 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E94043D703A745C0AC1473B972C7698B /* Products */ = {
+		DF6A6CA0CE9966ADF6BEDA471BA1F5BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2EF1AFF38B20FD0B586A30EC18CC11B1 /* CKPagerComponent.framework */,
-				51D3DCAE64EADFC8A8D5375C8D16C3C9 /* Pods_CKPagerComponent_Example.framework */,
-				DA759CB07D4EAAF1DC75E00E5756B596 /* Pods_CKPagerComponent_Tests.framework */,
+				FFB9A314E6BAB237AA9AB378FAECC6FC /* ICPagingManager.modulemap */,
+				4A376B2A7DF5F2E1A855B05E2C569F86 /* ICPagingManager.xcconfig */,
+				930E5B381A8CB3E572B4B604BBED69D2 /* ICPagingManager-dummy.m */,
+				F681415FEB69097C36F189955AD1EF25 /* ICPagingManager-prefix.pch */,
+				E59ECB0CF2DA0DCED82B2D63B6505635 /* ICPagingManager-umbrella.h */,
+				5F052DEF034E4E22C6EDBE811E20D99F /* Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ICPagingManager";
 			sourceTree = "<group>";
 		};
-		F5440F037CF46AFE3D0544AC7914483C /* CKPagerComponent */ = {
+		F70220DB5A4AED3E5FE62E9B899200A6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				452FA58210DB6F3A60C103D2D6B22679 /* CKPagerComponent */,
-				7102CD204C0A9C7C9531309EF6C985FC /* Support Files */,
+				A273C14975B66BB88F8453DD307C2564 /* Pods-ICPagingManager_Example */,
+				A3E15C1229945A8302AAF01022CBDCF0 /* Pods-ICPagingManager_Tests */,
 			);
-			name = CKPagerComponent;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		15A221EDC48061867DB6ABF3D1E9DB6F /* Headers */ = {
+		1E48005C314D1D233D27D971C2A68A4E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				265B24564186CFADBF75D7460DAAED20 /* Pods-CKPagerComponent_Example-umbrella.h in Headers */,
+				39AA646E6EA1E300C8558D731D299411 /* ICContainerView.h in Headers */,
+				85531A21219D0135AD6D7E2F8C00BB13 /* ICPagingManager-umbrella.h in Headers */,
+				754C4B85B7EEA1C923C969CCA8A8CDB4 /* ICPagingManager.h in Headers */,
+				755C4C94DB378B528ACC5682E0A84DE7 /* ICPagingManagerProtocol.h in Headers */,
+				BAA187185F66AED136E0139905D4A86C /* ICSegmentBar.h in Headers */,
+				376ACCE471A9390760B479E52604C574 /* ICSegmentBarConfig.h in Headers */,
+				ADD59242DF6ADDD9B858B9718E703678 /* ICSystemSegmentedControl.h in Headers */,
+				67E58AD196F760216A4B1CC87E9C446B /* ISegmentBar.h in Headers */,
+				4F841A16E64ED1F6D2F1593FEB1B3F70 /* SegmentControl.h in Headers */,
+				3F82C6BBE7F23681B3ACD6474417BF49 /* SegmentFactory.h in Headers */,
+				93913542D4F98320EB5E57FBC9F64993 /* UIView+ICFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		776106E5663A6BF4881B46B450A59400 /* Headers */ = {
+		8550A5C4D10C8155DEB248844EE45184 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FACE696EB946592F60B79F8D4731FC /* Pods-CKPagerComponent_Tests-umbrella.h in Headers */,
+				1B45808D4F43A2CEF22165FF7AEA68F1 /* Pods-ICPagingManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7EE003EFE4E6A79B4C2DC9E08DADB0E /* Headers */ = {
+		BB898054EA9A2CC30C66FC715297EC41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23174030BEB652E9F7757008E7804AD /* CKContainerView.h in Headers */,
-				D5D1731D3474F4DE654AE82ECABB4A6C /* CKPagerComponent-umbrella.h in Headers */,
-				8038155AB0C067129430766F35A73442 /* CKPagingManager.h in Headers */,
-				7B2A7483DA093DA7BA544A297452F8BA /* CKSegmentBar.h in Headers */,
-				CEF9D318BBF40D06EB6DDB3A01978CBE /* CKSegmentBarConfig.h in Headers */,
-				FFACAC068F0BF251677856A847D682B0 /* IPagingManager.h in Headers */,
-				A495D0F9BB94CDECB9E46D3478E64BEA /* ISegmentBar.h in Headers */,
-				DE9A6175C652800B7F958A385FB9E469 /* ISegmentFactory.h in Headers */,
-				EA8ECA897A561BB7BA74CDA78A2F8090 /* SegmentControl.h in Headers */,
-				043808CC4FDE3CB6839F15D58CD277F7 /* SegmentFactory.h in Headers */,
-				B9D194F1ECCC36DB2C2AED51704ABBB9 /* UIView+CKFrame.h in Headers */,
+				4AEC9BF1ACE49BF8AB1B4AC10548E0AA /* Pods-ICPagingManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02DBB55215DF8EC95F0EB32D2096B00D /* Pods-CKPagerComponent_Example */ = {
+		0A2BA44047B65085CDECDBCD406CC279 /* Pods-ICPagingManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8C8E032BCCD601638A88AD6EB93DCC5 /* Build configuration list for PBXNativeTarget "Pods-CKPagerComponent_Example" */;
+			buildConfigurationList = 1C403FF23FC0DE416EA4F865E8420CB5 /* Build configuration list for PBXNativeTarget "Pods-ICPagingManager_Example" */;
 			buildPhases = (
-				BC515E1B8FFC50DFA54A49E1C1867A91 /* Sources */,
-				F3360114D61D78B343B6C32D111982E4 /* Frameworks */,
-				15A221EDC48061867DB6ABF3D1E9DB6F /* Headers */,
+				017F96DFC9DFD3653D661FF1FBBF2BD7 /* Sources */,
+				00DAF842E40A342F806534FDC994EA8E /* Frameworks */,
+				BB898054EA9A2CC30C66FC715297EC41 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8C4395BB9CADDC7895CCC2BC7C03EC0E /* PBXTargetDependency */,
+				4B30082CBA161AA552366D501C3DA5E8 /* PBXTargetDependency */,
 			);
-			name = "Pods-CKPagerComponent_Example";
-			productName = "Pods-CKPagerComponent_Example";
-			productReference = 51D3DCAE64EADFC8A8D5375C8D16C3C9 /* Pods_CKPagerComponent_Example.framework */;
+			name = "Pods-ICPagingManager_Example";
+			productName = "Pods-ICPagingManager_Example";
+			productReference = 8D5C81D8610B28D61D94C2EB55A75061 /* Pods_ICPagingManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1EA252DBCDA7BD5823800DCD75BF0A53 /* CKPagerComponent */ = {
+		0A84AE280D7ADA0AB23B1BF039BF62D1 /* Pods-ICPagingManager_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EFB5CDCC5E0B8B5C18A5630C53D61F1 /* Build configuration list for PBXNativeTarget "CKPagerComponent" */;
+			buildConfigurationList = A2991ADA062AFBE9A1ADCDF8002E5DC6 /* Build configuration list for PBXNativeTarget "Pods-ICPagingManager_Tests" */;
 			buildPhases = (
-				4BD0BD201FE599356CB1FBC7FDAAC51B /* Sources */,
-				FBE983BB03662000C7592CBDBF09E468 /* Frameworks */,
-				C7EE003EFE4E6A79B4C2DC9E08DADB0E /* Headers */,
+				A9DDC1B0FEA73233E1073102B04EF447 /* Sources */,
+				44876EA2227BE647C049E433FC0A048C /* Frameworks */,
+				8550A5C4D10C8155DEB248844EE45184 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CKPagerComponent;
-			productName = CKPagerComponent;
-			productReference = 2EF1AFF38B20FD0B586A30EC18CC11B1 /* CKPagerComponent.framework */;
+			name = "Pods-ICPagingManager_Tests";
+			productName = "Pods-ICPagingManager_Tests";
+			productReference = F4907F85EA1DA1B02251AA96B8242948 /* Pods_ICPagingManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		31DDCEB87C4D965B8181C1F4D8C25326 /* Pods-CKPagerComponent_Tests */ = {
+		B1600C7B205A452D26B892BCBA80A21C /* ICPagingManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A988F234AF0FF24D744B88685F6FC1F1 /* Build configuration list for PBXNativeTarget "Pods-CKPagerComponent_Tests" */;
+			buildConfigurationList = 5159ABE3DD210E1AA994BB262B747BEC /* Build configuration list for PBXNativeTarget "ICPagingManager" */;
 			buildPhases = (
-				D9C93131D8B861353FF63E61302359F9 /* Sources */,
-				D452BB2A3362281FCE28B655FD46A769 /* Frameworks */,
-				776106E5663A6BF4881B46B450A59400 /* Headers */,
+				F27D028EEF0C5BFBF04BBD6E23105696 /* Sources */,
+				648B86030D91161754BC1D8329ED5164 /* Frameworks */,
+				1E48005C314D1D233D27D971C2A68A4E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-CKPagerComponent_Tests";
-			productName = "Pods-CKPagerComponent_Tests";
-			productReference = DA759CB07D4EAAF1DC75E00E5756B596 /* Pods_CKPagerComponent_Tests.framework */;
+			name = ICPagingManager;
+			productName = ICPagingManager;
+			productReference = 39C8BB5AC3537E6D5888316440AD96B8 /* ICPagingManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -381,89 +366,145 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E94043D703A745C0AC1473B972C7698B /* Products */;
+			productRefGroup = 2DF1A2EC65DB9FB1BFF9086C29C32D6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EA252DBCDA7BD5823800DCD75BF0A53 /* CKPagerComponent */,
-				02DBB55215DF8EC95F0EB32D2096B00D /* Pods-CKPagerComponent_Example */,
-				31DDCEB87C4D965B8181C1F4D8C25326 /* Pods-CKPagerComponent_Tests */,
+				B1600C7B205A452D26B892BCBA80A21C /* ICPagingManager */,
+				0A2BA44047B65085CDECDBCD406CC279 /* Pods-ICPagingManager_Example */,
+				0A84AE280D7ADA0AB23B1BF039BF62D1 /* Pods-ICPagingManager_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BD0BD201FE599356CB1FBC7FDAAC51B /* Sources */ = {
+		017F96DFC9DFD3653D661FF1FBBF2BD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD9A6B55D12ACFD40C2B632AB82D4DD /* CKContainerView.m in Sources */,
-				0347B77067D4A7E17D251A43EF03E98E /* CKPagerComponent-dummy.m in Sources */,
-				C24B9D2121E0416A02CCF8943CC2A0F9 /* CKPagingManager.m in Sources */,
-				A667349DCA9384A218DB706A7F14D05E /* CKSegmentBar.m in Sources */,
-				2DD3DD1F941251B1FDD5C37A968C9706 /* CKSegmentBarConfig.m in Sources */,
-				4864FC88393B602BA62803AEC722A2EF /* SegmentControl.m in Sources */,
-				CB6DB9193BC8F877E4AF02B59CA8D57D /* SegmentFactory.m in Sources */,
-				8BA6F5B0E8377616D6F4FB55562042A1 /* UIView+CKFrame.m in Sources */,
+				8959855C6835C4B0463698F82524B697 /* Pods-ICPagingManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC515E1B8FFC50DFA54A49E1C1867A91 /* Sources */ = {
+		A9DDC1B0FEA73233E1073102B04EF447 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708B71768E655EB9C05C46B3BB1F83A3 /* Pods-CKPagerComponent_Example-dummy.m in Sources */,
+				0CFDD6FEF81E14AAD96A08CF8D2CAE33 /* Pods-ICPagingManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9C93131D8B861353FF63E61302359F9 /* Sources */ = {
+		F27D028EEF0C5BFBF04BBD6E23105696 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6B421509964F203994BA232DC28A44 /* Pods-CKPagerComponent_Tests-dummy.m in Sources */,
+				841BB614BF8757981DF2B5272447DE7F /* ICContainerView.m in Sources */,
+				7F40F9A66EE59303160B447F66F519E7 /* ICPagingManager-dummy.m in Sources */,
+				14DB0716E7528F180EC111278547297C /* ICPagingManager.m in Sources */,
+				EC6025B31BD6B48ED7890498442869AF /* ICSegmentBar.m in Sources */,
+				62C0CA1B2DD0E8C9A9ECF3F9BF3967C2 /* ICSegmentBarConfig.m in Sources */,
+				C4FA128C8189FE1A920A90E72FBDE1A8 /* ICSystemSegmentedControl.m in Sources */,
+				D199622E2AA4BE3D5D5F2907AB80ABD2 /* SegmentControl.m in Sources */,
+				51F8C43F71286A8D99DA2D4592289CCA /* SegmentFactory.m in Sources */,
+				F306F8951705617C19B1C08EC2DF9584 /* UIView+ICFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8C4395BB9CADDC7895CCC2BC7C03EC0E /* PBXTargetDependency */ = {
+		4B30082CBA161AA552366D501C3DA5E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CKPagerComponent;
-			target = 1EA252DBCDA7BD5823800DCD75BF0A53 /* CKPagerComponent */;
-			targetProxy = B68848188CC504473132F0483369874A /* PBXContainerItemProxy */;
+			name = ICPagingManager;
+			target = B1600C7B205A452D26B892BCBA80A21C /* ICPagingManager */;
+			targetProxy = E13921F3D0EC1D9EF7B82953132C1234 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		188F87D53D58D6EBE73D03282BD22F01 /* Debug */ = {
+		716B7FE9F45C562A75D74AB87C27FB29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6556FB95F33455220721354BA1CF04A /* Pods-CKPagerComponent_Example.debug.xcconfig */;
+			baseConfigurationReference = 4A376B2A7DF5F2E1A855B05E2C569F86 /* ICPagingManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKPagerComponent_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ICPagingManager/ICPagingManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICPagingManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICPagingManager/ICPagingManager.modulemap";
+				PRODUCT_NAME = ICPagingManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74A71F520583A833C792001289E10E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A376B2A7DF5F2E1A855B05E2C569F86 /* ICPagingManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICPagingManager/ICPagingManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICPagingManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICPagingManager/ICPagingManager.modulemap";
+				PRODUCT_NAME = ICPagingManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AE390F80421EEB1E96E7490FB62B2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6328A776F7F2E4AF18F1641B3FDA4B03 /* Pods-ICPagingManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICPagingManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CKPagerComponent_Example/Pods-CKPagerComponent_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICPagingManager_Tests/Pods-ICPagingManager_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CKPagerComponent_Example;
+				PRODUCT_NAME = Pods_ICPagingManager_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,305 +513,254 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		9B4DC0C4063497CE6240D86D6BD90914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E0BD65D9E2CEE6E1815E98F110E225 /* Pods-ICPagingManager_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICPagingManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICPagingManager_Example/Pods-ICPagingManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ICPagingManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D69B03B3E6645BAAD26A5DA575E5CBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31D30CB5D020D5699BCB721CECE7AB2 /* Pods-ICPagingManager_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICPagingManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICPagingManager_Tests/Pods-ICPagingManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ICPagingManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA337AB898513B6D4D189117D0F0BF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD7E56DD07DC9C0844EF71154D122DD /* Pods-ICPagingManager_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICPagingManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICPagingManager_Example/Pods-ICPagingManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ICPagingManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		3E4570D2A9955249F33F2A6FB268B834 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBA80AD244C2DCAA41AD1BF5BA90313B /* CKPagerComponent.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CKPagerComponent/CKPagerComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CKPagerComponent/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CKPagerComponent/CKPagerComponent.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CKPagerComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5A72FA2F0D00AC46937216A2529D3F7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBA80AD244C2DCAA41AD1BF5BA90313B /* CKPagerComponent.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CKPagerComponent/CKPagerComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CKPagerComponent/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CKPagerComponent/CKPagerComponent.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CKPagerComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		67E70B55E9586E8C5D3ADCD0BC80F768 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C34F2F3D75F0ED8A0FDB87B95D29850 /* Pods-CKPagerComponent_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKPagerComponent_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CKPagerComponent_Tests/Pods-CKPagerComponent_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CKPagerComponent_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AD7E4AC57E54E23C833D94BDC899C6BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D29346DE0DDB8F1FCAF8D2C916B88AF /* Pods-CKPagerComponent_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKPagerComponent_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CKPagerComponent_Tests/Pods-CKPagerComponent_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CKPagerComponent_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D250D125F4BDD488FCF9D83601128E5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22A7321D507D98061F5C836F7120258A /* Pods-CKPagerComponent_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CKPagerComponent_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CKPagerComponent_Example/Pods-CKPagerComponent_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CKPagerComponent_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C403FF23FC0DE416EA4F865E8420CB5 /* Build configuration list for PBXNativeTarget "Pods-ICPagingManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4DC0C4063497CE6240D86D6BD90914 /* Debug */,
+				DA337AB898513B6D4D189117D0F0BF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EFB5CDCC5E0B8B5C18A5630C53D61F1 /* Build configuration list for PBXNativeTarget "CKPagerComponent" */ = {
+		5159ABE3DD210E1AA994BB262B747BEC /* Build configuration list for PBXNativeTarget "ICPagingManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E4570D2A9955249F33F2A6FB268B834 /* Debug */,
-				5A72FA2F0D00AC46937216A2529D3F7E /* Release */,
+				74A71F520583A833C792001289E10E4A /* Debug */,
+				716B7FE9F45C562A75D74AB87C27FB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A988F234AF0FF24D744B88685F6FC1F1 /* Build configuration list for PBXNativeTarget "Pods-CKPagerComponent_Tests" */ = {
+		A2991ADA062AFBE9A1ADCDF8002E5DC6 /* Build configuration list for PBXNativeTarget "Pods-ICPagingManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD7E4AC57E54E23C833D94BDC899C6BD /* Debug */,
-				67E70B55E9586E8C5D3ADCD0BC80F768 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8C8E032BCCD601638A88AD6EB93DCC5 /* Build configuration list for PBXNativeTarget "Pods-CKPagerComponent_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				188F87D53D58D6EBE73D03282BD22F01 /* Debug */,
-				D250D125F4BDD488FCF9D83601128E5F /* Release */,
+				8AE390F80421EEB1E96E7490FB62B2B8 /* Debug */,
+				D69B03B3E6645BAAD26A5DA575E5CBEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

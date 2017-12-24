@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'CKPagerComponent_Example' do
-  pod 'CKPagerComponent', :path => '../'
+target 'ICPagingManager_Example' do
+  pod 'ICPagingManager', :path => '../'
 
-  target 'CKPagerComponent_Tests' do
+  target 'ICPagingManager_Tests' do
     inherit! :search_paths
 
     

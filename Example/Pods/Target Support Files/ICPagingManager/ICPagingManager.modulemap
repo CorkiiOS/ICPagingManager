@@ -1,0 +1,6 @@
+framework module ICPagingManager {
+  umbrella header "ICPagingManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
