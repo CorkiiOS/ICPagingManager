@@ -24,7 +24,7 @@ add_git_tag(tag: target_version) # git tag -a xx
 push_to_git_remote # git push --tags
 
 pod_lib_lint(allow_warnings: true) # pod lib
-pod_push(path: path, repo: "CKSpecs") # 提交到私有仓库
+pod_push(path: path, repo: “master”) # 提交到私有仓库
 
 end
 
