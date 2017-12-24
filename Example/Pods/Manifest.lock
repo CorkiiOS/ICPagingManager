@@ -1,5 +1,5 @@
 PODS:
-  - ICPagingManager (0.1.0)
+  - ICPagingManager (0.2.0)
 
 DEPENDENCIES:
   - ICPagingManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ICPagingManager: 6766db72cf865316e397cf92746597f3a4157c1e
+  ICPagingManager: 34049254a9b8b497a5abf77ba9f7defb034ea2a6
 
 PODFILE CHECKSUM: 28d79f0d7b1a18b92c91da56b1e89d201a1682bd
 
